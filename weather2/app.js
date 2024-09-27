@@ -19,6 +19,8 @@ async function checkWeather(city) {
     }
     else {
         document.querySelector(".err").style.display = "none";
+        document.querySelector(".welcome").style.display = "none";
+
 
         var data = await response.json();
         console.log(data)
@@ -29,6 +31,10 @@ async function checkWeather(city) {
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+        document.querySelector(".feelslike").innerHTML = `Feels like : ${Math.round(data.main.feels_like)} °C`;
+        document.querySelector(".gradlevel").innerHTML = `Grnd Level : ${data.main.grnd_level}`;
+        document.querySelector(".pressure").innerHTML = `Pressure   : ${data.main.pressure}`;
+        document.querySelector(".sealevel").innerHTML = `Sea Level  : ${data.main.sea_level}`;
 
         if (data.weather[0].main == "Cloud") {
             weaticon.src = "images/clouds.png"
