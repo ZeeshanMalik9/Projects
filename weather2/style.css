@@ -63,11 +63,13 @@
 .weather{
     box-shadow: 20px 20px 600px rgba(0, 0, 0, 0.664),inset -10px -10px 30px rgba(255, 255, 255, 0.468);
     padding: 2rem;
-    margin-top: 2rem;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
 }
 .weather-icon {
     width: 170px;
-    margin-top: 30px;
+    margin-top: 0;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.778));
 }
 
@@ -94,7 +96,7 @@
     width: max-content;
     height: fit-content;
     background: linear-gradient(145deg, rgba(2, 228, 141, 0.295),rgba(33, 213, 254, 0.584));
-
+    border-radius: 1rem;
     /* border: 2px solid black; */
     text-align:left;
     margin:10px auto 0;
@@ -119,6 +121,7 @@
 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664),inset -4px -4px 20px rgba(255, 255, 255, 0.308);
     padding: 10px;
+    border-radius: 0.5rem;
 }
 
 .col img {
