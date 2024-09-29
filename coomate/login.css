@@ -1,0 +1,334 @@
+body {
+ /* background-image: url('partners.jpg'); Replace 'bgimg1.jpg' with the path to your background image */
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vh; /* You can adjust this based on your preference */
+  opacity:100% ; /* Adjust the opacity as needed */
+  background-color:#5C5470;
+  
+}
+
+.sibtn {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  left: 50px;
+}
+
+.navbar {
+  background-color: transparent; /* Make the navbar background transparent */
+  position: fixed;
+  top: 0; /* Place the navbar at the top of the page */
+  left: 0; /* Stretch it across the entire width */
+  z-index:999; /* Ensure the navbar stays on top of other content */
+
+  
+  
+
+}
+
+.content {
+  /* background-color: yellow; */
+    width: 50%;
+    float: left;
+    height: 30rem;
+    /* margin-left: 2px; Adjust as needed */
+  }
+
+  .imgh {
+    
+   width: 50%; 
+    height: auto; 
+    display: flex;
+    position: relative; 
+    margin-left: 0%;
+}
+
+
+    .imgside{
+      width: 100%;
+      height: 100%;
+    }
+
+
+.whatT{
+  text-align: center;
+  height: 2rem;
+width: 100%;
+margin-top: 3rem;
+}
+.content p {
+  font-size: 24px; /* Adjust as needed */
+
+
+body {
+  margin-top: 56px; /* Adjust as needed based on your navbar height */
+}
+}
+
+h1{
+  color: blueviolet;
+  
+}
+.cont{
+ background: url(img12.jpg);
+ height: 100%;
+ background-size: cover;
+ 
+}
+
+.cards-container{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 1.5rem;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+#card{
+  width: 18rem;
+}
+
+.card{
+  width: 150px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card:hover{
+  box-shadow: 2px 5px 5px;
+}
+
+.card-body{
+ text-align: center;
+}
+
+.topmain{
+  width: 500px;
+  background-color: yellow;
+}
+
+h1{
+  color: blueviolet;
+  
+}
+
+#btn{
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+}
+.btn{
+  width: 5rem;
+  font-size: 0.5rem;
+  margin-bottom: 5px;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.cont{
+ background: url(img12.jpg);
+ height: 100%;
+ background-size: cover;
+ 
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1.5rem;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card{
+  width: 150px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-body{
+ text-align: center;
+}
+.lastcont{
+  margin-top: 5rem;
+  color: white;
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(43, 31, 31);
+}
+
+/* .btn-primary {
+  color: var(--button-color);
+  background-color: var(--button-background-color);
+  border-radius: var(--border-radius);
+}
+
+.btn-primary:hover {
+  box-shadow: inset 0 0 0 20rem var(--darken-1);
+}
+
+.btn-primary:active {
+  box-shadow: inset 0 0 0 20rem var(--darken-2),
+    inset 0 3px 4px 0 var(--darken-3),
+    0 0 1px var(--darken-2);
+}
+
+.btn-primary:disabled,
+.btn-primary.is-disabled {
+  opacity: .5;
+} */
+
+@media screen and (max-width: 900px) {
+
+  .imgh{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+    #comate{
+      font-size: 18px;
+    }
+    #sibtn{
+      width: 4rem;
+      font-size: 0.9rem;
+    }
+    body {
+        font-size: 5px; /* Decrease font size for smaller screens */
+    }
+
+    .container {
+        width: 60%; /* Adjust container width for smaller screens */
+    }
+
+    .content {
+      font-weight: 600;
+      /* background-color: rgba(0, 0, 255, 0.234); */
+      text-align: center;
+      height: 20rem;
+        width: 100%; /* Full width for smaller screens */
+        margin-left: 0; /* No margin for smaller screens */
+    }
+
+    #card{
+      width: 10rem;
+      height: 18rem;
+    }
+  .card {
+
+       
+        height: 40px;/* Full width for cards on smaller screens */
+        margin: 1rem 0; /* Adjust margin for smaller screens */
+    }
+    .card-title{
+      margin-top: 2px;
+      font-size: 0.8rem;
+    }
+    .content p {
+     
+      font-size: 18px; /* Adjust as needed */
+    
+    
+    body {
+      margin-top: 50rem; /* Adjust as needed based on your navbar height */
+  }
+    }
+
+    .btn{
+      width: 4rem;
+    }
+    .whatT{
+      margin-top: 4rem ;
+    }
+}
+
+
+/*end of page info*/
+.lastcont {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-media, .quick-links, .copyright-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 10px;
+}
+
+.copyright-section {
+  margin-top: 30px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #4884c4;
+  --bs-btn-border-color: #384a5c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #424649;
+  --bs-btn-hover-border-color: #373b3e;
+  --bs-btn-focus-shadow-rgb: 66,70,73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}

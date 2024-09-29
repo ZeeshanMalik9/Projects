@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.grid_container{
+    /* background-color: blue; */
+    margin-top: 2.5 rem;
+display: grid;
+grid-template-rows: 50% 50%;
+width: 100%;
+height: 80rem;
+/* border: 2px solid black; */
+        grid-template-columns: 30% 70%;
+        gap : 10px;
+       }
+    .item1{
+        margin: 1rem;
+        border-radius: 1rem;
+        background-color: rgba(0, 0, 0, 0.247);
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .item2{
+        /* margin: 1rem; */
+        margin-top: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(0, 0, 0, 0.247);
+        
+    }
+    .item3{
+        /* margin: 1rem; */
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(0, 0, 0, 0.247);
+        
+    }
+
+
+
+
+
+
+
+
+    .profdet{
+        width: 100%;
+        height: 10rem;
+       background-color: blanchedalmond;
+       border-radius: 1rem;
+       margin-top: 1rem;
+       display: flex;
+       position: relative;
+    
+    }
+    .prpic{
+        width: 4rem;
+        height: 4rem;
+        background-color: black;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        border-radius: 1.5rem;
+        position: absolute;
+    }
+    .uname{
+        margin-top: 1rem;
+        margin-left: 6rem;
+        width: 15rem ;
+        height: 3rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    .mail{
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: 6rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 2rem;
+    width: 100%;
+    height: 20rem;
+    bottom: 0px;
+    background-color: black;
+}

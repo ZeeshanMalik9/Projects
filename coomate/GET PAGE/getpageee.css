@@ -1,0 +1,277 @@
+.sidebar{
+    position: absolute ;
+    top: 4rem;
+    width: 30%;
+    height:1000%;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.cardssec{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(11, 227, 155, 0.963);
+   left: 30%;
+    top: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+    /* padding-left: 2rem; */
+   
+
+}
+
+
+#card{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1rem 1rem 1rem rgba(255, 255, 255, 0.521);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    border: 0.5rem solid black;
+    transition: 400ms;
+}
+#card:hover{
+    transition: 400ms;
+    width: 22rem;
+    height: 18rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.671);  
+}
+.card-img{
+    border-radius: 3rem;
+    width: 100%;
+    height: 10rem;
+    
+}
+#card-img{
+    border-radius: 1rem;
+    
+
+}
+.container{
+    margin: 1rem;
+}
+
+.name{
+    display: inline;
+    position: absolute;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+    padding-left: 1rem;
+    height: fit-content;
+    padding-right: 1rem;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.434);
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem black;
+}
+.mail{
+    display: inline;
+    position: absolute;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    margin-top: 2.8rem;
+    width: fit-content;
+    padding-left: 1rem;
+    height: fit-content;
+    padding-right: 1rem;
+    font-weight: 700;
+    background-color: rgba(252, 241, 241, 0.466);
+    backdrop-filter: blur(2px);
+    border-radius: 1rem;
+    z-index: 4;
+    box-shadow: 0.3rem 0.3rem 0.5rem black;
+}
+.tit{
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(173, 202, 101);
+}
+#dots{
+    width: 1.5rem;
+    height: 2rem;
+    position: absolute;
+    margin-top: 0.5rem;
+    right: 0.5rem;
+    
+}
+#eye{
+    position: absolute;
+    color: white;
+    width: 2rem;
+    height: 1.5rem;
+    bottom: 1rem;
+    left: 1rem;
+}
+.VC{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 3rem;
+    color: white;
+}
+#cmt{
+    position: absolute;
+    color: white;
+    bottom: 1.2rem;
+    left: 6rem;
+}
+.CC{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 7.2rem;
+    color: white;
+}
+#shr{
+    position: absolute;
+    color: white;
+    bottom: 1.2rem;
+    right: 2rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    justify-content: space-around;
+  }
+
+@media screen and (max-width: 900px) {
+    .sidebar{
+        width: 0;
+    }
+    .cardssec{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.371);
+       left: 0;
+        top: 1rem;
+        margin-left: 1rem;
+        border-radius: 1rem;
+        display: grid;
+        justify-content: center;
+        /* padding-left: ; */
+       
+    
+    }
+    
+    
+    #card{
+        border-radius: 1rem;
+        width: 25rem;
+        height: 20rem;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 1rem 1rem 1rem white;
+        margin-bottom: 5rem;
+    }
+    .card-img{
+        border-radius: 3rem;
+        width: 100%;
+        height: 15rem;
+        
+    }
+    #card-img{
+        border-radius: 1rem;
+        
+    
+    }
+    .container{
+        margin: 1rem;
+    }
+    
+    .name{
+        display: inline;
+        position: absolute;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        width: fit-content;
+        padding-left: 1rem;
+        height: fit-content;
+        padding-right: 1rem;
+        font-weight: 700;
+        background-color: rgba(255, 255, 255, 0.434);
+        backdrop-filter: blur(2px);
+        border-radius: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        box-shadow: 0.3rem 0.3rem 0.5rem black;
+    }
+    .mail{
+        display: inline;
+        position: absolute;
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+        margin-top: 2.8rem;
+        width: fit-content;
+        padding-left: 1rem;
+        height: fit-content;
+        padding-right: 1rem;
+        font-weight: 700;
+        background-color: rgba(252, 241, 241, 0.466);
+        backdrop-filter: blur(2px);
+        border-radius: 1rem;
+        z-index: 4;
+        box-shadow: 0.3rem 0.3rem 0.5rem black;
+    }
+    .tit{
+        position: absolute;
+        bottom: 2rem;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 2rem;
+        background-color: rgb(173, 202, 101);
+    }
+    #dots{
+        width: 1.5rem;
+        height: 2rem;
+        position: absolute;
+        margin-top: 0.5rem;
+        right: 0.5rem;
+        
+    }
+    #eye{
+        position: absolute;
+        color: white;
+        width: 2rem;
+        height: 1.5rem;
+        bottom: 1rem;
+        left: 1rem;
+    }
+    .VC{
+        position: absolute;
+        bottom: 0.1rem;
+        left: 3rem;
+        color: white;
+    }
+    #cmt{
+        position: absolute;
+        color: white;
+        bottom: 1.2rem;
+        left: 6rem;
+    }
+    .CC{
+        position: absolute;
+        bottom: 0.1rem;
+        left: 7.2rem;
+        color: white;
+    }
+    #shr{
+        position: absolute;
+        color: white;
+        bottom: 1.2rem;
+        right: 2rem;
+    } 
+}
