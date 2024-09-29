@@ -45,8 +45,11 @@ async function checkWeather(city) {
         else if (data.weather[0].main == "Rain") {
             weaticon.src = "images/rain.png"
         }
-        else if (data.weather[0].main == "Drizzle" || "Haze") {
+        else if (data.weather[0].main == "Drizzle" ) {
             weaticon.src = "images/drizzle.png"
+        }
+        else if (data.weather[0].main == "Haze" ) {
+            weaticon.src = "images/haze.png"
         }
         else if (data.weather[0].main == "Mist") {
             weaticon.src = "images/mist.png"
