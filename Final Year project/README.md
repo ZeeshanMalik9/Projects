@@ -1,12 +1,3 @@
-mportant: Make sure these images exist inside a folder called screenshots/ in your GitHub repo:
-
-screenshots/
-├── loginPage.png
-├── orderPage.png
-├── newOrder.png
-├── PharmactyPage.png
-├── AboutUsPage.png
-├── AboutUsPage2.png
 
 # 🚑 PharmaShift: Overhead Track System for Medicine Transportation
 
