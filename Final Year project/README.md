@@ -1,17 +1,28 @@
-# PharmaShift 🚑💊  
-**Overhead Track System for Medicine Transportation**
+mportant: Make sure these images exist inside a folder called screenshots/ in your GitHub repo:
 
-PharmaShift is an innovative solution designed to revolutionize medicine transportation within hospital environments. Using an overhead track system, it automates the delivery of medicines from the pharmacy to various hospital departments, ensuring speed, hygiene, and accuracy.
+screenshots/
+├── loginPage.png
+├── orderPage.png
+├── newOrder.png
+├── PharmactyPage.png
+├── AboutUsPage.png
+├── AboutUsPage2.png
+
+# 🚑 PharmaShift: Overhead Track System for Medicine Transportation
+
+PharmaShift is a smart, automated overhead track system designed for efficient and hygienic medicine delivery in hospitals. This system reduces human intervention, minimizes errors, and ensures fast, contactless transportation of medicines from the pharmacy to various hospital wards.
 
 ---
 
 ## 📌 Table of Contents
+
 - [Overview](#-overview)
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
 - [System Architecture](#-system-architecture)
 - [Installation](#-installation)
 - [Usage](#-usage)
+- [Screenshots](#-screenshots)
 - [Project Demonstration](#-project-demonstration)
 - [Contributors](#-contributors)
 - [License](#-license)
@@ -20,35 +31,31 @@ PharmaShift is an innovative solution designed to revolutionize medicine transpo
 
 ## 🔍 Overview
 
-Traditional medicine delivery systems in hospitals often face issues like human error, delays, and hygiene concerns. PharmaShift aims to overcome these with a smart, automated solution using a motorized track system for fast and efficient delivery. The system can be operated manually or programmed for scheduled runs.
+PharmaShift addresses the need for efficient intrahospital medicine delivery. It utilizes a microcontroller-controlled capsule that moves along an overhead track, delivering medicines to target rooms autonomously or manually.
 
 ---
 
 ## ✨ Features
 
-- 🚝 **Automated Overhead Track System**
-- 📦 **Secure Medicine Capsule**
-- 🧠 **Microcontroller-Based Control System**
-- 📲 **Remote Access or Button Control**
-- 🔐 **Tamper-Proof & Hygienic Transport**
-- ⏱️ **Efficient and Time-Saving**
-- 🧪 **Built-in Sensors for Safety & Delivery Confirmation**
+- Motorized capsule unit for medicine delivery  
+- Remote and auto operational modes  
+- Sensor-based delivery confirmation system  
+- Easy-to-use interface for pharmacy staff  
+- Lightweight and modular design  
+- Reduces delivery time and manual labor  
 
 ---
 
 ## 🛠 Technologies Used
 
-- **Embedded Systems** – Arduino or ESP32 for controlling motors and sensors.
-- **Motor Control** – DC/Servo motors for movement.
-- **IR/Ultrasonic Sensors** – For obstacle detection and delivery confirmation.
-- **C/C++** – Firmware programming.
-- **3D Printing / Mechanical Design** – For the capsule and track system.
-- **Web/App Interface** – Using HTML/CSS/JavaScript/Python.
+- Arduino/ESP32 Microcontroller  
+- IR/Ultrasonic Sensors  
+- Servo/DC Motors  
+- Embedded C / C++  
+- HTML, CSS, JavaScript (for interface)  
+- Mechanical Design & Track System  
 
 ---
-Sure! Here's a cleaned-up and polished version of the section you shared for your README.md file. I've corrected typos, standardized formatting, and fixed the repeated image labels:
-
-
 
 ## 🏗 System Architecture
 
@@ -62,7 +69,7 @@ Sure! Here's a cleaned-up and polished version of the section you shared for you
 
 ⚙️ Installation
 
-    Note: This is a hardware-integrated project. The following steps are for code and simulation setup.
+    Note: This is a hardware-integrated project. The following steps are for the code and simulation setup.
 
     Clone the repository:
 
@@ -76,38 +83,41 @@ Sure! Here's a cleaned-up and polished version of the section you shared for you
 
     Power on the circuit and test the capsule movement.
 
+▶️ Usage
+
+    Manual Mode: Press the control button to operate the capsule manually.
+
+    Auto Mode: The capsule moves based on programmed delivery routes.
+
+    Delivery Confirmation: Sensors trigger a beep or signal upon reaching the destination.
+
 📸 Screenshots
+
+    Below are interface previews of the PharmaShift system:
+
 🔐 Login Page
 
-Login page
+Login Page
 📦 Order Management Page
 
-Order page
-➕ New Order Interface
+Order Page
+➕ New Order Page
 
-New Order
+New Order Page
 🏥 Pharmacy Dashboard
 
 Pharmacy Page
 ℹ️ About Us - Page 1
 
-About Us Page
+About Us - Page 1
 ℹ️ About Us - Page 2
 
-About Us Page 2
-▶️ Usage
-
-    Manual Mode: Press the button to move the capsule.
-
-    Auto Mode: Programmed route/delivery schedule.
-
-    Delivery Confirmation: Sensor beeps when destination is reached.
-
+About Us - Page 2
 📹 Project Demonstration
 
-    Add a YouTube or Google Drive link here to show the working prototype.
+    A video demonstration of the working prototype is available at the link below:
 
-Watch Demo Video
+🎬 Watch Demo Video
 👨‍💻 Contributors
 
     Zeeshan Malik – Interface Software Developer & Researcher
