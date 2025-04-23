@@ -1,0 +1,38 @@
+.projects{
+    background-color: lightblue;
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vv;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* display: flex; */
+}
+.box1{
+    border: 2px solid;
+    width: 50rem;
+    height: 100vh;
+  /* overflow-x: scroll; */
+
+}
+.box2{
+    border: 2px solid;
+    width: 50rem;
+    height: 100vh;
+  /* overflow-x: scroll; */
+
+}
+.box3{
+    border: 2px solid;
+    width: 50rem;
+    height: 100vh;
+  /* overflow-x: scroll; */
+
+}
+.box4{
+    border: 2px solid;
+    width: 50rem;
+    height: 100vh;
+  /* overflow-x: scroll; */
+
+}
