@@ -57,7 +57,7 @@ Traditional medicine delivery systems in hospitals often face issues like human 
           |                         |
      Remote Control / App      Stop Mechanism
 
-
+```
 ⚙️ Installation
 
     Note: This is a hardware-integrated project. Below steps are for code and simulation setup.
