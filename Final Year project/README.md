@@ -46,6 +46,9 @@ Traditional medicine delivery systems in hospitals often face issues like human 
 - **Web/App Interface** – Using HTML/CSS/JavaScript/Python.
 
 ---
+Sure! Here's a cleaned-up and polished version of the section you shared for your README.md file. I've corrected typos, standardized formatting, and fixed the repeated image labels:
+
+
 
 ## 🏗 System Architecture
 
@@ -53,14 +56,13 @@ Traditional medicine delivery systems in hospitals often face issues like human 
 [Pharmacy Module] --> [Overhead Track] --> [Capsule Unit] --> [Target Ward/Room]
 
           |                         |
-       Microcontroller         Sensors
+     Microcontroller           Sensors
           |                         |
-     Remote Control / App      Stop Mechanism
+  Remote Control / App     Stop Mechanism
 
-```
 ⚙️ Installation
 
-    Note: This is a hardware-integrated project. Below steps are for code and simulation setup.
+    Note: This is a hardware-integrated project. The following steps are for code and simulation setup.
 
     Clone the repository:
 
@@ -74,29 +76,25 @@ Traditional medicine delivery systems in hospitals often face issues like human 
 
     Power on the circuit and test the capsule movement.
 
-## 📸 Screenshots
+📸 Screenshots
+🔐 Login Page
 
-### Login Page
-![Login page](screenshots/loginPage.png)
+Login page
+📦 Order Management Page
 
-### Login Page
-![Login page](screenshots/orderPage.png)
+Order page
+➕ New Order Interface
 
-### Login Page
-![Login page](screenshots/newOrder.png)
+New Order
+🏥 Pharmacy Dashboard
 
-### Login Page
-![Login page](screenshots/PharmactyPage.png)
+Pharmacy Page
+ℹ️ About Us - Page 1
 
-### Login Page
-![Login page](screenshots/AboutUsPage.png)
+About Us Page
+ℹ️ About Us - Page 2
 
-### Login Page
-![Login page](screenshots/AboutUsPage2.png)
-
-
-
-
+About Us Page 2
 ▶️ Usage
 
     Manual Mode: Press the button to move the capsule.
@@ -107,20 +105,19 @@ Traditional medicine delivery systems in hospitals often face issues like human 
 
 📹 Project Demonstration
 
-    Add a YouTube or Drive link here showing the working prototype.
+    Add a YouTube or Google Drive link here to show the working prototype.
 
-
-
+Watch Demo Video
 👨‍💻 Contributors
 
     Zeeshan Malik – Interface Software Developer & Researcher
-    Abubaker Osman - harware Engineer
-    Varun MG - System designer & hardware Integrator
-    Sujal ST - Assosiate developer
 
-    Feel free to add your teammates if applicable.
+    Abubaker Osman – Hardware Engineer
+
+    Varun MG – System Designer & Hardware Integrator
+
+    Sujal ST – Associate Developer
 
 📜 License
 
-This project is for educational purposes
-
+This project is for educational purposes only.
