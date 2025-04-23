@@ -67,7 +67,10 @@ PharmaShift addresses the need for efficient intrahospital medicine delivery. It
           |                         |
   Remote Control / App     Stop Mechanism
 
-⚙️ Installation
+```
+---
+
+## ⚙️ Installation
 
     Note: This is a hardware-integrated project. The following steps are for the code and simulation setup.
 
@@ -93,26 +96,29 @@ PharmaShift addresses the need for efficient intrahospital medicine delivery. It
 
 📸 Screenshots
 
-    Below are interface previews of the PharmaShift system:
 
 🔐 Login Page
+![login Page](scrrenshots/loginPage.png)
 
-Login Page
 📦 Order Management Page
+![Order Page](scrrenshots/OrderPage.png)
 
-Order Page
-➕ New Order Page
+📦 Order Management Page
+![Order Page](scrrenshots/OrderDetails.png)
 
-New Order Page
+📦 Order Management Page
+![Order Page](scrrenshots/newOrder.png)
+
 🏥 Pharmacy Dashboard
+![Pharmacy Page](scrrenshots/PharmactyPage.png)
 
-Pharmacy Page
 ℹ️ About Us - Page 1
+![About Us Page](scrrenshots/AboutUsPage.png)
 
-About Us - Page 1
-ℹ️ About Us - Page 2
+ℹ️ About Us - Page 1
+![About Us Page](scrrenshots/AboutUsPage2.png)
 
-About Us - Page 2
+
 📹 Project Demonstration
 
     A video demonstration of the working prototype is available at the link below:
@@ -120,7 +126,7 @@ About Us - Page 2
 🎬 Watch Demo Video
 👨‍💻 Contributors
 
-    Zeeshan Malik – Interface Software Developer & Researcher
+    Zeeshan Malik – Interface Software Developer
 
     Abubaker Osman – Hardware Engineer
 
